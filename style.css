@@ -1,0 +1,19 @@
+/* STYLE.CSS LISTO PARA GITHUB PAGES */
+body {
+    background: linear-gradient(135deg, #18050e 0%, #2a0818 40%, #400a21 70%, #15030b 100%);
+    background-attachment: fixed;
+    color: #ffe4e6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: all 0.4s ease;
+}
+
+.white-heart-glow {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
