@@ -1,17 +1,39 @@
-<!-- INDEX.HTML LISTO PARA GITHUB PAGES -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestra Historia en 22 Capítulos</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartas de Amor - 22 Capítulos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Tu contenido HTML exacto aquí -->
-    <div id="app">Carga tus 22 capítulos aquí</div>
-    <script src="script.js"></script>
+
+  <!-- Contenedor de corazones flotantes de fondo -->
+  <div class="hearts-container" id="heartsContainer"></div>
+
+  <!-- Encabezado Principal -->
+  <header>
+    <h1>🤍 Cartas para Ti 🤍</h1>
+    <p class="subtitle">Un capítulo nuevo cada 3 días. Del Capítulo 5 en adelante desbloqueados desde el inicio.</p>
+  </header>
+
+  <!-- Rejilla de Capítulos -->
+  <main class="grid-container" id="chaptersGrid"></main>
+
+  <!-- Modal para leer las Cartas -->
+  <div class="modal" id="letterModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">&times;</button>
+      <div class="letter-header">
+        <h2 id="modalTitle">Capítulo X</h2>
+        <span class="heart-icon">🤍</span>
+      </div>
+      <div class="letter-body" id="modalText">
+        <!-- Aquí se cargan los textos de 30-35 líneas -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
